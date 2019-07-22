@@ -1,6 +1,6 @@
 import create from '../../utils/create'
 import dayjs from 'dayjs'
-import Dialog from '@transtone/vant-weapp/dialog/dialog'
+import Dialog from 'vant-weapp/dialog/dialog'
 
 const app = getApp()
 
@@ -19,7 +19,7 @@ create.Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../other/other'
     })
   },
   onClose(event) {

@@ -2,8 +2,8 @@
   "navigationBarTitleText": "首页",
   "usingComponents": {
     "hello": "/components/hello/hello",
-    "van-cell": "@transtone/vant-weapp/cell/index",
-    "van-dialog": "@transtone/vant-weapp/dialog/index",
-    "van-swipe-cell": "@transtone/vant-weapp/swipe-cell/index"
+    "van-cell": "vant-weapp/cell/index",
+    "van-dialog": "vant-weapp/dialog/index",
+    "van-swipe-cell": "vant-weapp/swipe-cell/index"
   }
 }
